@@ -21,6 +21,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class WeChatApplication {
 
     public static void main(String[] args) {
+        System.out.println("修改了代码");
         SpringApplication.run(WeChatApplication.class,args);
     }
 
